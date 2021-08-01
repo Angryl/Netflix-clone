@@ -147,6 +147,7 @@ font-size: 1rem;
 }
 .feature{
     border-top: 8px solid #222;
+    padding: 2rem 1rem;
 }
 .feature-title{
     font-size: 25px;
@@ -195,6 +196,15 @@ font-size: 1rem;
 .hero-description{
 font-size: 1.3rem;
 }
+.feature{
+    padding: 4rem  ;
+}
+.feature-title{
+    font-size: 35px;
+}
+.feature-subtitle{
+    font-size: 20 px;
+}
 }
 
 @media (min-width: 1024px){
@@ -225,9 +235,25 @@ font-size: 1.3rem;
     }
     .primary-button{
         height: 50px;
-    
     }
-    
+    .feature-detail{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        text-align: left;
+        padding-top: -2rem;
+        padding: 0 4rem;
+    }
+    .feature-title{
+        font-size: 50px;
+    }
+    .feature-subtitle{
+        font-size: 25px;
+    }
+    .feature-image-container{
+        max-width: 500px;
+    }
 }
 @media (min-width: 1254px){
 
