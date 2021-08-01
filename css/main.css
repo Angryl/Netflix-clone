@@ -142,6 +142,42 @@ font-size: 1rem;
     font-size: 15px;
     letter-spacing: 1px;
 }
+.feature-detail{
+    text-align: center ;
+}
+.feature{
+    border-top: 8px solid #222;
+}
+.feature-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.feature-subtitle{
+    font-size: 15px;
+    font-weight: 400;
+}
+.feature-image-container{
+    width: 100%;
+    position: relative;
+}
+.feature-image{
+    width: 100%;
+}
+.feature-background-video-container{
+   position: absolute;
+    width: 100%;
+    top: 20%;
+    top: 20%;
+    left: 13%;
+    height: 1 00%;
+    max-width: 73%;
+    max-height: 54%;
+    z-index: -2;
+}
+.feature-background-video{
+    width: 100%;
+}
 @media (min-width: 768px){
 
     .hero-bg-image-container{
@@ -160,6 +196,7 @@ font-size: 1rem;
 font-size: 1.3rem;
 }
 }
+
 @media (min-width: 1024px){
     .navbar{
         padding: 2% 5%;
