@@ -231,6 +231,44 @@ font-size: 1rem;
     top: 9%;
     left: 19%;
 }
+.faq-accordian{
+    width: 100%;
+}
+.faq-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #303030;
+    border: 1px solid #303030;
+    color: white;
+}
+.faq-list-container{
+    border-top: 8px solid #222;
+}
+.faq-visible{
+    background-color: #303030;
+    border-top: 1px solid black;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+.faq-visible >p{
+    margin: 1rem 0;
+ .faq-heading{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 1rem 2rem;
+}
+.faq-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;  
+}
 @media (min-width: 768px){
 
     .hero-bg-image-container{
@@ -273,6 +311,17 @@ font-size: 1.3rem;
 }
 .poster-details > h6{
     font-size: 14px;
+}
+.faq-title{
+    font-size: 20px;
+}
+.faq-heading{
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.faq-list{
+    padding: 1rem 5rem;
 }
 }
 
@@ -336,6 +385,9 @@ font-size: 1.3rem;
 }
 .poster-container{
     width: 20%;
+}
+.faq-list{
+    padding: 1rem 25rem;
 }
 }
 @media (min-width: 1254px){
