@@ -442,8 +442,25 @@ font-size: 1.3rem;
     transform: translateX(16%);
 }
 footer{
-    padding: 2rem 5rem;
+    padding: 2rem 25rem;
     align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start
+}
+.footer-row-2{
+        justify-content: space-between;
+        align-items: flex-start ;
+        flex-wrap: nowrap;
+
+}
+
+
+.footer-row-1,
+.footer-row-2,
+.footer-row-3,
+.footer-row-4{
+    align-self: flex-start;
 }
 }
 @media (min-width: 1254px){
