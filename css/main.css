@@ -254,8 +254,9 @@ font-size: 1rem;
     overflow: hidden;
     transition: max-height 0.5s ease-in-out;
 }
+/*ractify the problem here*/
 .faq-visible >p{
-    margin: 1rem 0;
+    margin: 1rem 0;}
  .faq-heading{
     text-align: center;
     font-size: 20px;
@@ -268,6 +269,45 @@ font-size: 1rem;
   justify-content: center;
   align-items: center;
   gap: 10px;  
+}
+.faq-get-started-email{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.faq-get-started-email > h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+footer{
+    border-top: 8px solid #333;
+    padding: 2REM 1rem;
+    color: #757575;
+}
+.footer-row-1 > h4{
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-row-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.footer-row-3 > .dropdown-container{
+    width: fit-content;
+    border: 1px solid #757575 ;
+}
+.footer-row-3 > .dropdown-container > .language-drop-down{
+    color: #757575 ;
 }
 @media (min-width: 768px){
 
@@ -322,6 +362,15 @@ font-size: 1.3rem;
 }
 .faq-list{
     padding: 1rem 5rem;
+}
+.faq-get-started-email{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center; *//*this line may cause issue the
+    i am using transform translate*/
+    transform: translate(15%);
 }
 }
 
@@ -387,7 +436,14 @@ font-size: 1.3rem;
     width: 20%;
 }
 .faq-list{
-    padding: 1rem 25rem;
+    padding: 1rem 25 rem;
+}
+.faq-get-started-email{
+    transform: translateX(16%);
+}
+footer{
+    padding: 2rem 5rem;
+    align-items: flex-start;
 }
 }
 @media (min-width: 1254px){
