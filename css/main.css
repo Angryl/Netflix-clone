@@ -38,7 +38,7 @@ background: transparent;
     border: 1px solid white;
     border-radius: 2px;
     padding: 0.4rem;
-    ​background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
 }
 .signin-button{
     background-color: #dc030f;
@@ -67,8 +67,8 @@ position: absolute;
 inset: 0;
 width: 100%;
 height: 80vh;
-​background: rgba(0, 0, 0, 0.4);
-​background-image: linear-gradient( to top,
+background: rgba(0, 0, 0, 0.4);
+background-image: linear-gradient( to top,
  rgba(0, 0, 0, 0.8) 0, 
  rgba(0, 0, 0, 0) 60%, 
  rgba(0, 0, 0, 0.8) 100% ); 
@@ -190,7 +190,7 @@ font-size: 1rem;
     display: flex;
     align-items: center;
     background-color: black;
-    ​border: 2px solid rgba(255, 255, 255, 0.25);
+    border: 2px solid rgba(255, 255, 255, 0.25);
     border-radius: 10px;
     height: 60px;
     padding: 0.25rem  0.6rem;
