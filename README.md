@@ -1,8 +1,11 @@
 # Netflix-clone
  A netflix Clone developed In HTML, CSS, Javascript
 
-# Prequisite
-
+# Prerequisite
+- Any Edittor (VsCode, Notepad, etc.)
+- Any Latest version Browser
+- Some kenowledge of html, css, js
+- Proper internet
 ***
 
 # Setup
